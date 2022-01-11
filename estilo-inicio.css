@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* imagen de fondo */
+
+body {
+  background-image: url(./imagenes/pexels-james-wheeler-417074.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#particles-js {
+  width: 100vw;
+  height: 34vw;
+}
+
+header nav {
+  padding: 10px 10px;
+  margin: 10px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: end;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: larger;
+}
+
+header nav ul li a:hover {
+  color: #000;
+  transition: 1s;
+}
+
+.titulo-central {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  font-family: "Staatliches", cursive;
+  font-size: 40px;
+  border-bottom: 2px solid #fff;
+  letter-spacing: 40px;
+}
+
+.container-clock {
+  left: 22%;
+  margin-top: 15%;
+  position: absolute;
+  letter-spacing: 40px;
+}
+
+.container-clock h1 {
+  font-family: "Staatliches", cursive;
+  font-size: 10rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.container-clock p {
+  font-size: 2.5rem;
+  font-family: "Staatliches", cursive;
+  color: #fff;
+}
